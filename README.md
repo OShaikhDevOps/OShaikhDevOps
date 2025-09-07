@@ -1,16 +1,26 @@
-## Hi there 👋
+# Hi 👋, It's me Osman Shaikh
 
-<!--
-**OShaikhDevOps/OShaikhDevOps** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🔐 **DevSecOps Enthusiast | Cloud Security | Automation Engineer**
 
-Here are some ideas to get you started:
+I’m passionate about building secure, automated pipelines and infrastructure that scales.  
+Currently exploring **cloud-native security, IaC scanning, and CI/CD security integrations**.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 Skills & Tools
+- **DevOps:** Docker, Kubernetes, GitHub Actions, Jenkins, Terraform, Ansible
+- **Security:** OWASP ZAP, OWASP Dependency-track, SonarQube, Snyk, Gitleaks
+- **Cloud:** AWS and Azure
+- **Monitoring:** Prometheus, Grafana, ELK Stack
+
+---
+
+## 🌱 Currently Learning
+- Advanced Kubernetes security
+- Cloud-native security in AWS/Azure
+- Threat modeling automation  
+- MLOps
+- AI/ML
+---
+
+✉️ Reach me at: **[usman_s@msn.com]** | [LinkedIn](https://github.com/OShaikhDevOps)  
