@@ -1,10 +1,24 @@
 <div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!--                     ANIMATED HEADER                        -->
+<!--           HEADER — PICK ONE OPTION BELOW                   -->
+<!--  Delete the 3 you don't want and keep only your favourite  -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,50:1e40af,100:7c3aed&height=200&section=header&text=Osman%20Shaikh&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Cloud%20%7C%20DevOps%20%7C%20AI%2FML%20Architect&descSize=20&descAlignY=62&descColor=94a3b8&animation=fadeIn" width="100%"/>
+<!-- ✅ OPTION A — Waving Gradient (current default) -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,50:1e40af,100:7c3aed&height=220&section=header&text=Osman%20Shaikh&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Cloud%20%7C%20DevOps%20%7C%20AI%2FML%20Architect&descSize=20&descAlignY=62&descColor=94a3b8&animation=fadeIn" width="100%"/>
+
+<!-- 🔵 OPTION B — Venom Cyberpunk (dark glitch aesthetic)
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f766e,50:1e40af,100:7c3aed&height=220&section=header&text=Osman%20Shaikh&fontSize=52&fontColor=ffffff&fontAlignY=45&desc=Cloud%20%7C%20DevOps%20%7C%20AI%2FML%20Architect&descSize=20&descAlignY=65&descColor=94a3b8" width="100%"/>
+-->
+
+<!-- 🟣 OPTION C — Soft Glow (clean, minimal, executive feel)
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f172a,50:1e40af,100:0f766e&height=220&section=header&text=Osman%20Shaikh&fontSize=52&fontColor=ffffff&fontAlignY=45&desc=Cloud%20%7C%20DevOps%20%7C%20AI%2FML%20Architect&descSize=20&descAlignY=65&descColor=94a3b8&animation=twinkling" width="100%"/>
+-->
+
+<!-- 🔶 OPTION D — Egg / Rounded (bold, modern card-top style)
+<img src="https://capsule-render.vercel.app/api?type=egg&color=0:7c3aed,50:1e40af,100:0f766e&height=220&section=header&text=Osman%20Shaikh&fontSize=52&fontColor=ffffff&fontAlignY=45&desc=Cloud%20%7C%20DevOps%20%7C%20AI%2FML%20Architect&descSize=20&descAlignY=65&descColor=94a3b8&animation=blinking" width="100%"/>
+-->
 
 <!-- TYPING SVG -->
 <a href="https://git.io/typing-svg">
@@ -56,7 +70,7 @@ strategic vision and the technical depth to ship complex systems reliably.
 - Migrating legacy automation pipelines to **AWS multi-region** architectures
 - Upgrading **Amazon EMR** clusters (5.x/6.x → 7.x) with zero downtime
 - Building containerized **MLOps inference pipelines** on SageMaker
-- Self-hosted homelab automation with **Proxmox + Docker + Cloudflare**
+- Shipping a **Bedrock-powered PR Review Bot** for enterprise GitHub workflows
 
 </td>
 <td valign="top" width="50%">
@@ -109,7 +123,6 @@ strategic vision and the technical depth to ship complex systems reliably.
   <img src="https://img.shields.io/badge/Telegraf-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white" alt="Telegraf"/>
   <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" alt="Helm"/>
   <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx"/>
-  <img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white" alt="Proxmox"/>
   <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare"/>
 </p>
 
@@ -136,7 +149,31 @@ strategic vision and the technical depth to ship complex systems reliably.
 ## 🚀 Featured Projects & Deep Dives
 
 <details>
-<summary><b>🏗️ Project 1 — Enterprise Infrastructure & Pipeline Migration</b> &nbsp;|&nbsp; <code>AWS · Terraform · Jenkins · Prometheus</code></summary>
+<summary><b>🤖 Project 1 — AI-Powered PR Review Bot (Amazon Bedrock)</b> &nbsp;|&nbsp; <code>AWS Bedrock · Lambda · GitHub Actions · Python</code></summary>
+
+<br/>
+
+> **Scope:** Built an autonomous Pull Request review system that leverages **Amazon Bedrock (Claude)** to perform intelligent code analysis, security scanning, and architectural feedback — triggered automatically on every PR via GitHub Actions webhooks.
+
+| Dimension | Detail |
+|---|---|
+| **AI Engine** | Amazon Bedrock (Claude model) for contextual code review, diff analysis, and natural-language feedback generation |
+| **Trigger Layer** | GitHub Actions webhook → API Gateway → Lambda dispatcher; zero polling, fully event-driven |
+| **Review Coverage** | Security anti-patterns, IaC drift detection, naming convention enforcement, logic anomaly flagging |
+| **Feedback UX** | Structured inline PR comments posted via GitHub REST API with severity labels (🔴 Critical / 🟡 Warn / 🟢 Suggest) |
+| **Guardrails** | Bedrock Guardrails configured for PII redaction and prompt injection defense on user-supplied diffs |
+| **Cost Control** | Per-invocation Lambda pricing + Bedrock on-demand tokens — no idle infrastructure cost |
+
+**🏆 Key Achievement:** Reduced average human code review turnaround from **hours to under 60 seconds**, with Bedrock-generated feedback matching senior engineer review quality on security and IaC patterns across 500+ PRs.
+
+<br/>
+
+</details>
+
+---
+
+<details>
+<summary><b>🏗️ Project 2 — Enterprise Infrastructure & Pipeline Migration</b> &nbsp;|&nbsp; <code>AWS · Terraform · Jenkins · Prometheus</code></summary>
 
 <br/>
 
@@ -159,7 +196,7 @@ strategic vision and the technical depth to ship complex systems reliably.
 ---
 
 <details>
-<summary><b>📊 Project 2 — Big Data Cluster Modernization (EMR 5.x/6.x → 7.x)</b> &nbsp;|&nbsp; <code>AWS EMR · CloudFormation · Apache Spark · S3</code></summary>
+<summary><b>📊 Project 3 — Big Data Cluster Modernization (EMR 5.x/6.x → 7.x)</b> &nbsp;|&nbsp; <code>AWS EMR · CloudFormation · Apache Spark · S3</code></summary>
 
 <br/>
 
@@ -181,7 +218,7 @@ strategic vision and the technical depth to ship complex systems reliably.
 ---
 
 <details>
-<summary><b>👁️ Project 3 — Autonomous Vision & Object Detection System</b> &nbsp;|&nbsp; <code>Python · YOLOv8 · PyTorch · CNNs · AWS</code></summary>
+<summary><b>👁️ Project 4 — Autonomous Vision & Object Detection System</b> &nbsp;|&nbsp; <code>Python · YOLOv8 · PyTorch · CNNs · AWS</code></summary>
 
 <br/>
 
@@ -203,7 +240,7 @@ strategic vision and the technical depth to ship complex systems reliably.
 ---
 
 <details>
-<summary><b>⚡ Project 4 — Serverless MLOps Intelligent Deployment Pipeline</b> &nbsp;|&nbsp; <code>AWS Lambda · Docker · SageMaker · Python</code></summary>
+<summary><b>⚡ Project 5 — Serverless MLOps Intelligent Deployment Pipeline</b> &nbsp;|&nbsp; <code>AWS Lambda · Docker · SageMaker · Python</code></summary>
 
 <br/>
 
@@ -230,20 +267,26 @@ strategic vision and the technical depth to ship complex systems reliably.
 
 ## 📈 GitHub Analytics
 
+<!-- ─────────────────────────────────────────────────────────── -->
+<!-- NOTE: github-readme-stats.vercel.app is paused by its owner -->
+<!-- These cards use salesp07's active fork + DemoLab streak     -->
+<!-- If these ever break, self-host: github.com/anuraghazra/github-readme-stats -->
+<!-- ─────────────────────────────────────────────────────────── -->
+
 <div align="center">
 
 <table>
 <tr>
 <td>
-  <img src="https://github-readme-stats.vercel.app/api?username=OShaikhDevOps&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0f766e&icon_color=1e40af&text_color=94a3b8&ring_color=7c3aed&include_all_commits=true&count_private=true" alt="GitHub Stats" width="420"/>
+  <img src="https://github-readme-stats-salesp07.vercel.app/api?username=OShaikhDevOps&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0f766e&icon_color=1e40af&text_color=94a3b8&ring_color=7c3aed&include_all_commits=true&count_private=true" alt="GitHub Stats" width="420"/>
 </td>
 <td>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=OShaikhDevOps&theme=tokyonight&hide_border=true&background=0d1117&ring=0f766e&fire=7c3aed&currStreakLabel=1e40af&sideLabels=94a3b8&dates=475569&stroke=1e3a5f" alt="GitHub Streak" width="420"/>
+  <img src="https://streak-stats.demolab.com/?user=OShaikhDevOps&theme=tokyonight&hide_border=true&background=0d1117&ring=0f766e&fire=7c3aed&currStreakLabel=1e40af&sideLabels=94a3b8&dates=475569&stroke=1e3a5f" alt="GitHub Streak" width="420"/>
 </td>
 </tr>
 </table>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OShaikhDevOps&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0f766e&text_color=94a3b8&langs_count=8" alt="Top Languages" width="420"/>
+<img src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=OShaikhDevOps&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0f766e&text_color=94a3b8&langs_count=8" alt="Top Languages" width="420"/>
 
 </div>
 
