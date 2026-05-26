@@ -1,6 +1,6 @@
 # Hi 👋, It's me Osman Shaikh
 
-🔐 **DevSecOps Enthusiast | Cloud Security | Automation Engineer**
+🔐 **DevOps Enthusiast | Cloud Engineer | Automation Engineer**
 
 I’m passionate about building secure, automated pipelines and infrastructure that scales.  
 Currently exploring **cloud-native security, IaC scanning, and CI/CD security integrations**.
