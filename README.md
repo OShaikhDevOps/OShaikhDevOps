@@ -5,19 +5,19 @@
 <!--  Delete the 3 you don't want and keep only your favourite  -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<!-- ✅ OPTION A — Waving Gradient (current default) -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,50:1e40af,100:7c3aed&height=220&section=header&text=Osman%20Shaikh&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Cloud%20%7C%20DevOps%20%7C%20AI%2FML%20Architect&descSize=20&descAlignY=62&descColor=94a3b8&animation=fadeIn" width="100%"/>
-
-<!-- 🔵 OPTION B — Venom Cyberpunk (dark glitch aesthetic)
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f766e,50:1e40af,100:7c3aed&height=220&section=header&text=Osman%20Shaikh&fontSize=52&fontColor=ffffff&fontAlignY=45&desc=Cloud%20%7C%20DevOps%20%7C%20AI%2FML%20Architect&descSize=20&descAlignY=65&descColor=94a3b8" width="100%"/>
+<!-- ✅ OPTION A — Waving Gradient (current default)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,50:1e40af,100:7c3aed&height=220&section=header&text=Osman%20Shaikh&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Cloud%20%7C%20DevOps%20%7C%20AI%2FML%20Engineer&descSize=20&descAlignY=62&descColor=94a3b8&animation=fadeIn" width="100%"/>
 -->
 
+<!-- 🔵 OPTION B — Venom Cyberpunk (dark glitch aesthetic) -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f766e,50:1e40af,100:7c3aed&height=220&section=header&text=Osman%20Shaikh&fontSize=52&fontColor=ffffff&fontAlignY=45&desc=Cloud%20%7C%20DevOps%20%7C%20AI%2FML%20Engineer&descSize=20&descAlignY=65&descColor=94a3b8" width="100%"/>
+
 <!-- 🟣 OPTION C — Soft Glow (clean, minimal, executive feel)
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f172a,50:1e40af,100:0f766e&height=220&section=header&text=Osman%20Shaikh&fontSize=52&fontColor=ffffff&fontAlignY=45&desc=Cloud%20%7C%20DevOps%20%7C%20AI%2FML%20Architect&descSize=20&descAlignY=65&descColor=94a3b8&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f172a,50:1e40af,100:0f766e&height=220&section=header&text=Osman%20Shaikh&fontSize=52&fontColor=ffffff&fontAlignY=45&desc=Cloud%20%7C%20DevOps%20%7C%20AI%2FML%20Engineer&descSize=20&descAlignY=65&descColor=94a3b8&animation=twinkling" width="100%"/>
 -->
 
 <!-- 🔶 OPTION D — Egg / Rounded (bold, modern card-top style)
-<img src="https://capsule-render.vercel.app/api?type=egg&color=0:7c3aed,50:1e40af,100:0f766e&height=220&section=header&text=Osman%20Shaikh&fontSize=52&fontColor=ffffff&fontAlignY=45&desc=Cloud%20%7C%20DevOps%20%7C%20AI%2FML%20Architect&descSize=20&descAlignY=65&descColor=94a3b8&animation=blinking" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=egg&color=0:7c3aed,50:1e40af,100:0f766e&height=220&section=header&text=Osman%20Shaikh&fontSize=52&fontColor=ffffff&fontAlignY=45&desc=Cloud%20%7C%20DevOps%20%7C%20AI%2FML%20Engineer&descSize=20&descAlignY=65&descColor=94a3b8&animation=blinking" width="100%"/>
 -->
 
 <!-- TYPING SVG -->
@@ -28,13 +28,8 @@
 <br/>
 
 <!-- VISITOR COUNTER + PROFILE VIEWS -->
-<img src="https://komarev.com/ghpvc/?username=OShaikhDevOps&style=for-the-badge&color=0f766e&label=PROFILE+VIEWS" alt="Profile Views"/>
-&nbsp;
-<img src="https://img.shields.io/github/followers/OShaikhDevOps?style=for-the-badge&color=1e40af&labelColor=0f172a&label=FOLLOWERS" alt="Followers"/>
-
+<img src="https://komarev.com/ghpvc/?username=OShaikhDevOps&style=for-the-badge&color=0f766e&label=PROFILE+VIEWS" alt="Profile Views"/><img src="https://img.shields.io/github/followers/OShaikhDevOps?style=for-the-badge&color=1e40af&labelColor=0f172a&label=FOLLOWERS" alt="Followers" style="margin-left: 15px;"/>
 </div>
-
-<br/>
 
 ---
 
@@ -149,22 +144,22 @@ strategic vision and the technical depth to ship complex systems reliably.
 ## 🚀 Featured Projects & Deep Dives
 
 <details>
-<summary><b>🤖 Project 1 — AI-Powered PR Review Bot (Amazon Bedrock)</b> &nbsp;|&nbsp; <code>AWS Bedrock · Lambda · GitHub Actions · Python</code></summary>
+<summary><b>🤖 Project 1 — AI-Powered Multi-Platform PR Review Bot (Amazon Bedrock)</b> &nbsp;|&nbsp; <code>AWS Bedrock · Lambda · GitHub Actions · Bitbucket · AWS CodePipeline · Python</code></summary>
 
 <br/>
 
-> **Scope:** Built an autonomous Pull Request review system that leverages **Amazon Bedrock (Claude)** to perform intelligent code analysis, security scanning, and architectural feedback — triggered automatically on every PR via GitHub Actions webhooks.
+> **Scope:** Built a highly versatile, autonomous Pull Request review system leveraging **Amazon Bedrock (Claude)** to perform intelligent code analysis, security scanning, and architectural feedback. Features an abstract webhook routing layer triggered dynamically across **GitHub Actions, Bitbucket Pipelines, and AWS CodePipeline orchestration**.
 
 | Dimension | Detail |
 |---|---|
-| **AI Engine** | Amazon Bedrock (Claude model) for contextual code review, diff analysis, and natural-language feedback generation |
-| **Trigger Layer** | GitHub Actions webhook → API Gateway → Lambda dispatcher; zero polling, fully event-driven |
-| **Review Coverage** | Security anti-patterns, IaC drift detection, naming convention enforcement, logic anomaly flagging |
-| **Feedback UX** | Structured inline PR comments posted via GitHub REST API with severity labels (🔴 Critical / 🟡 Warn / 🟢 Suggest) |
-| **Guardrails** | Bedrock Guardrails configured for PII redaction and prompt injection defense on user-supplied diffs |
-| **Cost Control** | Per-invocation Lambda pricing + Bedrock on-demand tokens — no idle infrastructure cost |
+| **AI Engine** | Amazon Bedrock (Claude model) for multi-file contextual code reviews, complex Git diff analysis, and semantic feedback generation |
+| **CI/CD Integrations** | Native, cross-platform webhook support for **GitHub Actions**, **Bitbucket Pipelines**, and native orchestration via **AWS CodePipeline** stages |
+| **Trigger Layer** | Platform webhooks / pipeline events → API Gateway → Multi-tenant Lambda Router; extracts payload metadata based on source provider |
+| **Review Coverage** | Multi-language security anti-patterns, Terraform/CloudFormation drift detection, secret leaks, and architectural alignment checks |
+| **Feedback UX** | Context-aware inline PR comments injected directly via target provider APIs (GitHub REST API / Bitbucket Cloud API) with severity labels |
+| **Guardrails & Scale** | Bedrock Guardrails configured for PII redaction and prompt-injection sanitization on untrusted code diff payloads |
 
-**🏆 Key Achievement:** Reduced average human code review turnaround from **hours to under 60 seconds**, with Bedrock-generated feedback matching senior engineer review quality on security and IaC patterns across 500+ PRs.
+**🏆 Key Achievement:** Created a unified serverless code-governance engine that dropped code-review turnaround times to **under 60 seconds** across three independent CI/CD platforms, matching senior engineer evaluation quality over 1,200+ aggregated pipeline executions.
 
 <br/>
 
@@ -289,57 +284,51 @@ strategic vision and the technical depth to ship complex systems reliably.
 <img src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=OShaikhDevOps&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0f766e&text_color=94a3b8&langs_count=8" alt="Top Languages" width="420"/>
 
 </div>
-
 <br/>
-
-<!-- ACTIVITY GRAPH -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=OShaikhDevOps&bg_color=0d1117&color=0f766e&line=1e40af&point=7c3aed&area=true&hide_border=true" width="95%" alt="Contribution Graph"/>
-</div>
 
 ---
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                   ACHIEVEMENTS                             -->
 <!-- ═══════════════════════════════════════════════════════════ -->
-
-## 🏆 GitHub Trophies
+## 📊 Git Metrics & Core Contributions
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=OShaikhDevOps&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=OShaikhDevOps&theme=dracula" alt="GitHub Profile Metrics and Trophies" />
 </div>
-
----
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                   CONNECT WITH ME                          -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 ## 🤝 Connect With Me
-
+<br>
 <div align="center">
-
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN_HANDLE" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-&nbsp;
-<a href="mailto:YOUR_EMAIL@gmail.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-&nbsp;
-<a href="https://medium.com/@YOUR_MEDIUM_HANDLE" target="_blank">
-  <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/>
-</a>
-&nbsp;
-<a href="https://YOUR_BLOG_OR_PORTFOLIO_URL" target="_blank">
-  <img src="https://img.shields.io/badge/Portfolio-0f766e?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
-</a>
-
+  <table border="0" style="border: none; background: transparent;">
+    <tr style="border: none; background: transparent;">
+      <td style="border: none; padding: 0 10px;">
+        <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_HANDLE" target="_blank">
+          <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+        </a>
+      </td>
+      <td style="border: none; padding: 0 10px;">
+        <a href="mailto:usmansdq@gmail.com">
+          <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+        </a>
+      </td>
+      <td style="border: none; padding: 0 10px;">
+        <a href="https://discord.com/users/333579600003334144" target="_blank">
+          <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
+        </a>
+      </td>
+      <td style="border: none; padding: 0 10px;">
+        <a href="https://osmanshaikh.com/" target="_blank">
+          <img src="https://img.shields.io/badge/Portfolio-0f766e?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
-
-<br/>
-
----
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                    FOOTER WAVE                             -->
@@ -347,8 +336,12 @@ strategic vision and the technical depth to ship complex systems reliably.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:1e40af,100:0f766e&height=100&section=footer" width="100%"/>
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--               FOOTER — PICK ONE OPTION BELOW               -->
+<!--  Match this with your header choice for perfect symmetry   -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div align="center">
 
-*"The cloud is not a destination — it's a discipline."*
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,50:1e40af,100:7c3aed&height=95&section=footer&text=The%20cloud%20is%20not%20a%20destination%20%E2%80%94%20it's%20a%20discipline.&fontSize=10&fontColor=ffff&fontAlignY=78&font=Ubuntu" width="100%"/>
 
 </div>
