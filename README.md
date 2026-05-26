@@ -14,9 +14,9 @@
 <br/>
 
 <!-- VISITOR COUNTER + PROFILE VIEWS -->
-<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=0f766e&label=PROFILE+VIEWS" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=OShaikhDevOps&style=for-the-badge&color=0f766e&label=PROFILE+VIEWS" alt="Profile Views"/>
 &nbsp;
-<img src="https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?style=for-the-badge&color=1e40af&labelColor=0f172a&label=FOLLOWERS" alt="Followers"/>
+<img src="https://img.shields.io/github/followers/OShaikhDevOps?style=for-the-badge&color=1e40af&labelColor=0f172a&label=FOLLOWERS" alt="Followers"/>
 
 </div>
 
@@ -33,7 +33,7 @@
 ```yaml
 Name        : Osman Shaikh
 Title       : Senior Cloud & DevOps Engineer | AI/ML Practitioner
-Location    : Toronto, Ontario 🍁  (Canadian PR)
+Location    : Toronto, Ontario 🍁
 Education   : Postgraduate — Applied AI, George Brown College
 Clearance   : Available for Remote & On-site Roles across Canada & USA
 ```
