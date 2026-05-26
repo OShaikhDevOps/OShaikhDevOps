@@ -235,15 +235,15 @@ strategic vision and the technical depth to ship complex systems reliably.
 <table>
 <tr>
 <td>
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0f766e&icon_color=1e40af&text_color=94a3b8&ring_color=7c3aed&include_all_commits=true&count_private=true" alt="GitHub Stats" width="420"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=OShaikhDevOps&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0f766e&icon_color=1e40af&text_color=94a3b8&ring_color=7c3aed&include_all_commits=true&count_private=true" alt="GitHub Stats" width="420"/>
 </td>
 <td>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&background=0d1117&ring=0f766e&fire=7c3aed&currStreakLabel=1e40af&sideLabels=94a3b8&dates=475569&stroke=1e3a5f" alt="GitHub Streak" width="420"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=OShaikhDevOps&theme=tokyonight&hide_border=true&background=0d1117&ring=0f766e&fire=7c3aed&currStreakLabel=1e40af&sideLabels=94a3b8&dates=475569&stroke=1e3a5f" alt="GitHub Streak" width="420"/>
 </td>
 </tr>
 </table>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0f766e&text_color=94a3b8&langs_count=8" alt="Top Languages" width="420"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OShaikhDevOps&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0f766e&text_color=94a3b8&langs_count=8" alt="Top Languages" width="420"/>
 
 </div>
 
@@ -251,7 +251,7 @@ strategic vision and the technical depth to ship complex systems reliably.
 
 <!-- ACTIVITY GRAPH -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&bg_color=0d1117&color=0f766e&line=1e40af&point=7c3aed&area=true&hide_border=true" width="95%" alt="Contribution Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=OShaikhDevOps&bg_color=0d1117&color=0f766e&line=1e40af&point=7c3aed&area=true&hide_border=true" width="95%" alt="Contribution Graph"/>
 </div>
 
 ---
@@ -263,7 +263,7 @@ strategic vision and the technical depth to ship complex systems reliably.
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=OShaikhDevOps&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies"/>
 </div>
 
 ---
