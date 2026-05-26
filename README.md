@@ -307,7 +307,7 @@ strategic vision and the technical depth to ship complex systems reliably.
   <table border="0" style="border: none; background: transparent;">
     <tr style="border: none; background: transparent;">
       <td style="border: none; padding: 0 10px;">
-        <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_HANDLE" target="_blank">
+        <a href="https://www.linkedin.com/in/osman-shaikh" target="_blank">
           <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
         </a>
       </td>
